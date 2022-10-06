@@ -53,15 +53,7 @@ const question = [
         reponse3 : 'WTF',
         reponse4 : '????',
         bonneReponse: 1
-    },
-    {
-        question : '.',
-        reponse1 : 'No',
-        reponse2 : 'Yeah',
-        reponse3 : 'WTF',
-        reponse4 : '????',
-        bonneReponse: 1
-    } 
+    }, 
 ]
 let questionNum = [];
 let myChoice;
