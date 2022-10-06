@@ -1,0 +1,144 @@
+body{
+    background-image: linear-gradient(to right, #edede9, #f5ebe0);
+}
+#first{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70%;
+    background-color: lightblue ;
+    border: 3px grey solid;
+    border-radius: 10px;
+}
+#main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70%;
+    background-color: lightblue ;
+    visibility: hidden;
+    border: 3px grey solid;
+    border-radius: 10px;
+}
+#done{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70%;
+    background-color: lightblue ;
+    visibility: hidden;
+    border: 3px grey solid;
+    border-radius: 10px;
+}
+#question{
+    position: absolute;
+    left:50%;
+    top: 5%;
+    transform:translate(-50%);
+    text-align: center;
+    font-weight: bold;
+}
+#buttons{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%);
+    width: 100%;
+    height: 70%; 
+    border: 3px grey solid;
+    border-radius: 10px;
+    display: grid;
+    text-decoration: bold;
+}
+#p1{
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+}
+#p2{
+    position: relative;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#p3{
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#p4{
+    position: relative;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.btn{
+    position: absolute;
+    width: 60%;
+    height: 30%;
+    border: 3px black solid;
+    border-radius: 10px;
+    background-color: grey;
+    
+}
+#btn1{
+    right: 10%;
+    bottom: 20%;
+    box-shadow: -5px 10px 10px grey;
+}
+#btn2{
+    left: 10%;
+    bottom: 20%;
+    box-shadow: -5px 10px 10px grey;
+}
+#btn3{
+    right: 10%;
+    top: 20%;
+    box-shadow: -5px 10px 10px grey;
+}
+#btn4{
+    left: 10%;
+    top: 20%;
+    box-shadow: -5px 10px 10px grey;
+}
+#nextBtn{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    width: 35%;
+    height: 20%;
+    visibility: hidden;
+    background-color: red;
+}
+#btnWelcome{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 30%;
+    border: 3px black solid;
+    border-radius: 10px;
+    background-color: grey;
+    font-size: x-large
+}
+#finalScoreDisplay{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: x-large
+}
